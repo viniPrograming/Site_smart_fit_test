@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Smart Fit - Home</title>
+</head>
+
+<style type="text/css">
+	body{
+		transition: 2s;
+		background-image: url("Images/Background.png"); 
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		font-family: "Arial";
+	}
+table{
+		margin: auto;
+	}a{
+		color: white;
+		text-decoration: none;
+		background-color: #f0d20e;
+		padding: 5px;
+		border-radius: 4px; 
+		margin: 5px;
+		transition: 0.6s;
+	}a:hover{
+		box-shadow: 2px 2px 40px rgba(28, 28, 28, 0.5);
+		transition: 0.6s;
+	}.planos{
+		width: 300px;
+		height: 500px;
+		margin: auto;
+		margin-top: 150px;
+		border-radius: 10px;
+		background-color: #242424;
+		color: white;
+		padding: 10px;
+		font-family: sans-serif;
+		transition: 0.6s;
+	}form input{
+		margin-left: 50px;
+		margin-top: 40px;
+		height: 35px;
+		width: 190px;
+		border: none;
+		background: #ff3b3b;
+		color: white;
+		font-size: 18px;
+		border-radius: 4px;
+		cursor: pointer;
+		transition: 0.6s;
+	}.planos:hover{
+		height: 540px;
+		margin: auto;
+		margin-top: 150px;
+		border-radius: 10px;
+		background-color: #242424;
+		color: white;
+		padding: 10px;
+		font-family: sans-serif;
+		background-color: #1f1f1f ;
+		transition: 0.6s ;
+	}form input:hover{
+		width: 220px;
+		height: 40px;
+		transition: 0.6s;
+	}#copy_right{
+		color: white;
+		font-family: sans-serif;
+		font-size: 12px;
+	}#cadastro_link{
+		background-color: salmon;
+	}
+</style>
+
+<body>
+	<table width="90%">
+			<tr>
+				<td>
+					<img src="Images/smart-fit-logo.png" width="130" height="50">
+				</td>
+				<td align="right">
+					<a href="">
+						Home 
+					</a>
+					<a href="contato.html">
+						Contato
+					</a>
+					<a href="sobre.html">
+						Sobre
+					</a>
+					<a id="cadastro_link" href="cadastro.html">Casatre-se</a>
+
+				</td>
+			</tr>
+		</table>
+		<div class="planos" id="plano1">
+			<h2 align="center">Basico</h2>
+			<h3 class="preços" id="preço_1" align="center">R$30,00</h4>
+			<ul type="disc">
+				<li> Todos os materiais precisos</li>
+				<li> Aulas online</li>
+				<li> 24 Horas </li>
+			</ul>
+			<form>
+				<input class="confimar_plano" type="submit" value="Confirmar Plano" >
+			</form>
+		</div>
+		<div class="planos" id="plano2">
+			<h2 align="center">Intermediario</h2>
+			<h3 class="preços" id="preço_2" align="center">R$60,00</h4>
+			<ul type="disc">
+				<li> Todos os materiais precisos</li>
+				<li> Personal Trainer </li>
+				<li> Aulas Extras </li>
+				<li> 24 Horas </li>
+			</ul>
+			<form>
+				<input class="confimar_plano" type="submit" value="Confirmar Plano">
+			</form>
+		</div>
+		<div class="planos" id="plano3">
+			<h2 align="center">Premium</h2>
+			<h3 class="preços" id="preço_3" align="center">R$100,00</h4>
+			<ul type="disc">
+				<li> Todos os materiais precisos</li>
+				<li> Personal Trainer </li>
+				<li> Aulas Extras </li>
+				<li> 24 Horas </li>
+				<li> App S.F De graça </li>
+			</ul>
+			<form>
+				<input class="confimar_plano" type="submit" value="Confirmar Plano">
+			</form>
+		</div>
+			<h3 id="copy_right"align="left">Todos direitos reservados.</h3>
+</body>
+</html>

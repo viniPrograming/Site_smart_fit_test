@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Smart Fit - Contato</title>
+</head>
+
+<style type="text/css">
+	body{
+		transition: 2s;
+		background-image: url("Images/Background.png"); 
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		font-family: "Arial";
+	}
+table{
+		margin: auto;
+	}a{
+		color: white;
+		text-decoration: none;
+		background-color: #f0d20e;
+		padding: 5px;
+		border-radius: 4px; 
+		margin: 5px;
+	}#principal_contatos{
+		width: 900px;
+		margin: auto;
+	}#principal_contatos{
+		width: 420px;
+		height: 400px;
+		margin: auto;
+		margin-top: 160px;
+		background-color: #242424;
+		color: white;
+		padding: 20px;
+		border-radius: 20px;
+	}.input_duvidas{
+		border:  none;
+		height: 24px;
+		width: 175px;
+		border-radius: 4px;
+	}.obs_duvidas{
+		border: none;
+		border-radius: 4px;
+	}#duvida_confirm{
+		margin-left: 150px;
+		margin-top: 10px;
+		background-color: white;
+		color: black;
+		font-family: "Arial";
+		cursor: pointer;
+		transition: 0.6s;
+		margin-top: 40px;
+		height: 30px;
+		width: 170px;
+	}#duvida_confirm:hover{
+		background-color: #36cc00;
+		color: white;
+		transition: 0.6s;
+	}#copy_right{
+		color: white;
+		font-family: sans-serif;
+		font-size: 12px;
+		padding-top: 200px;
+	}
+</style>
+
+<body>
+	<table width="90%">
+			<tr>
+				<td>
+					<img src="Images/smart-fit-logo.png" width="130px" height="50px">
+				</td>
+				<td align="right">
+					<a href="index.html">
+						Home 
+					</a>
+					<a href="">
+						Contato
+					</a>
+					<a href="sobre.html">
+						Sobre
+					</a>
+				</td>
+			</tr>
+		</table>
+		<div id="principal_contatos">		
+			Email :		<b>smartfitcomercio@gmail.com</b> <br>
+			Telefone :	<b>(11) 55684-8645b> <br>
+			<hr>
+			<div id="duvidas">
+				<form>
+					<h3>Duvidas</h3>
+					Nome: <br>
+					<input class="input_duvidas" type="text" name="username" placeholder="Nome"><br><br>
+					Assunto : <br>
+					<input class="input_duvidas" type="text" name="assunto" placeholder="Assunto"><br><br>
+					<input id="duvida_confirm" class="input_duvidas" type="submit" value="Confirmar">
+				</form> 
+			</div>
+		</div>
+		<h3 id="copy_right"align="left">Todos direitos reservados.</h3>
+</body>
+</html>
